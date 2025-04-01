@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="icon" type="image/png" href="./imagens/emoji.png">
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="formulario.php" method="POST">
+            <label for="campo1">Nome:</label>
+            <input type="text" id="campo1" name="campo1" required>
+
+            <label for="campo2">Sobrenome:</label>
+            <input type="text" id="campo2" name="campo2" required>
+
+            <label for="campo3">Senha:</label>
+            <input type="text" id="campo3" name="campo3" required>
+
+            <label for="campo4">Idade:</label>
+            <input type="text" id="campo4" name="campo4" required>
+
+            <label for="campo5">Estado:</label>
+            <input type="text" id="campo5" name="campo5" required>
+
+            <div class="buttons">
+                <a href="index.html"><button type="submit" class="btn-salvar">Salvar</button></a>
+                <a href="index.html"><button type="button" class="btn-cancelar">Cancelar</button></a>
+                <button type="reset" class="btn-Limpar">Limpar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
