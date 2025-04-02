@@ -79,12 +79,12 @@ nav ul li {
     background-color: red;
 }
 
+/* --------Jogo destaque------- */
+
 .jogo-destaque {
     margin-top: 200px;
     margin-bottom: 200px;
 }
-
-/* --------Jogo destaque------- */
 
 main {
     background-color: #0E1118;
@@ -125,6 +125,16 @@ main {
     font-size: 32px;
 }
 
+.saiba-mais {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.saiba-mais:hover {
+    color: #ff6666;
+}
 
 /*-----Jogos esperados----- */
 
@@ -160,17 +170,6 @@ main {
 .jogo-card p {
     margin-bottom: 10px;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-.jogo-card a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.jogo-card a:hover {
-    color: #ff6666;
 }
 
 /* -----rodapé------- */
